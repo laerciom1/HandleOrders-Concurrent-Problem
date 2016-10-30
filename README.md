@@ -31,7 +31,7 @@ etapa;
   * uma análise comparativa entre as diferentes versões da solução produzidas em cada etapa
   * eventuais dificuldades encontradas.
   
-## [Etapa 1] (https://github.com/laerciom1/HandleOrders-Concurrent-Problem/tree/Etapa_1)
+## [Etapa 1] (https://github.com/laerciom1/HandleOrders-Concurrent-Problem/releases/tag/Etapa.1)
 > Crie agentes baseados em threads que consumam um buffer de 5000 posições previamente preenchido com os pedidos (ou seja, apenas os agentes consumidores deverão ser implementados nesta etapa). O consumidor eliminará continuamente os pedidos do buffer e seu tempo de processamento deverá ser simulado por uma pausa de três segundos. Ao final de cada processamento, deverá ser exibido um log com a identificação do agente consumidor, a identificação do pedido, o horário de início e o horário de término do processamento. Quando o buffer estiver vazio, os agentes consumidores serão bloquedos. Por ora, não há a necessidade de se preocupar com a exclusão mútua necessária entre os diversos agentes consumidores. Uma vez concluída a implementação, faça um experimento no qual sejam iniciadas quantidades distintas de agentes consumidores simultâneos variando entre 1, 5, 10, 50, 100, 500 e 1000. Visando obter maior significância estatística, realize a execução de pelo menos dez execuções para cada uma dessas quantidades e armazene o tempo de execução de cada uma delas. Para exibição dos resultados, crie uma tabela na qual conste os tempos médio, mínimo e máximo, além do desvio padrão dentre as dez execuções para cada quantidade de agentes consumidores. Elabore também um gráfico mostrando os tempos médios de execução para cada quantidade de agentes consumidores.
 
 ## Etapa 2
